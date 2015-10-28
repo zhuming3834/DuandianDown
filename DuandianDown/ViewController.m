@@ -50,6 +50,8 @@
 			[netStatusAl show];  //请检查网络连接
 		}
 	}];
+	//开始监听
+	[_manage.reachabilityManager startMonitoring];
 }
 /**
  *  开始下载按钮点击事件
